@@ -1,11 +1,13 @@
 <script setup>
-import Diagram from './components/Diagram.vue'
+import Diagram from "./components/Diagram.vue";
+import InstanceUsageExample from "./components/InstanceUsageExample.vue";
 </script>
 
 <template>
-  <Diagram msg="Hello from Diagram.vue!" />
+  <div class="space-y-8">
+    <InstanceUsageExample />
+    <Diagram />
+  </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
